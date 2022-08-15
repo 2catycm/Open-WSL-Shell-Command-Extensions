@@ -1,10 +1,14 @@
-# 适用于-适用于Linux的Windows子系统-的开放扩展终端命令集
+# Open-WSL-Shell-Command-Extensions
 
 #### Description
-基于WSL(Windows Subsystem for Linux，适用于Linux的Windows子系统 )文件互通、指令互用等高级特性开发的开放扩展终端命令集，旨在让 WSL 下的开发体验更加顺畅。
+The Open-WSL-Shell-Command-Extensions is developed based on advanced features such as file intercommunication and command interuse of the Windows Subsystem for Linux (WSL), which aims to make the development experience smoother under the WSL. 
+
+For example, if you want to switch your workspace to another folder in the Linux terminal of WSL, this can usually be done with the `cd` command in Linux. However, working under Windows, the path you want to switch to is in a Windows path that needs to be copied and pasted from an application running on Windows, such as `Explorer` or `VSCode`. 
+At this time, the project provides the 'cdwin' tool that can solve the problem. After installing this project, you can easily switch between `D:\workspace\my_project` and `C:\Windows` by simply replacing `cd` with `cdwin` in WSL terminals such as "bash" or "zsh". Instead of manually typing `cd /mnt/d/workspace/my_project` or `/mnt/c/Windows`, which would have to do the tedious work of replacing `\` with`/`, adding `/ MNT/`, and having to be strictly case-sensitive.
 
 #### Software Architecture
 Software architecture description
+We used Rust Programming Language with std for this project. 
 
 #### Installation
 
@@ -26,11 +30,5 @@ Software architecture description
 4.  Create Pull Request
 
 
-#### Gitee Feature
+#### Ingenious Features
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)

@@ -1,5 +1,5 @@
 # Open-WSL-Shell-Command-Extensions
-
+[![](https://img.shields.io/badge/English-%E4%B8%AD%E6%96%87-green.svg)](README.md)[![](https://img.shields.io/badge/License-MulanPSL%202.0-green.svg)](LICENSE_en)
 #### Description
 The Open-WSL-Shell-Command-Extensions is developed based on advanced features such as file intercommunication and command interuse of the Windows Subsystem for Linux (WSL), which aims to make the development experience smoother under the WSL. 
 

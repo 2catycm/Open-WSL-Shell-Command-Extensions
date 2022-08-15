@@ -1,5 +1,5 @@
 # 适用于-适用于Linux的Windows子系统-的开放扩展终端命令集
-[![](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-English-green.svg)](README_en.md)[![](https://img.shields.io/badge/License-MulanPSL%202.0-green.svg)](LICENSE)
+[![](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-English-green.svg)](README.en.md)[![](https://img.shields.io/badge/License-MulanPSL%202.0-green.svg)](LICENSE)
 #### 介绍
 基于WSL(Windows Subsystem for Linux，适用于Linux的Windows子系统 )文件互通、指令互用等高级特性开发的开放扩展终端命令集，旨在让 WSL 下的开发体验更加顺畅。
 

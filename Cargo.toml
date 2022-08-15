@@ -1,0 +1,18 @@
+[package]
+name = "适用于-适用于Linux的Windows子系统-的开放扩展终端命令集"
+name_en = "Open-WSL-Shell-Command-Extensions"
+authors = ["2catycm(叶璨铭)"]
+
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name="cdwin"
+# make sure to compile this in windows. 
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[profile.dev]
+opt-level = 1               # Use slightly better optimizations.
